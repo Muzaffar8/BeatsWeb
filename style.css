@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+.navbar ul li a:hover {
+  color: black;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+section#home {
+  background-image: url(img/home.jpg);
+  background-cover: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section#review {
+  background-image: url(img/review.jpg);
+  background-cover: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+section#advantages {
+  background-image: url(img/advantage.jpg);
+  background-cover: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+  .button {
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  font-size: 2em;
+}
+
+section#buy {
+  background-image: url(img/buy.jpg);
+  background-cover: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.button {
+  background-color: white;
+  color: black;
+  padding: 10px 24px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  font-size: 2em;
+}
+section#contact {
+  background-image: url(img/contact.jpg);
+  background-cover: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.footer{
+  background-color: #000;
+  position:relative;
+  height:100px;
+  text-align: center;
+  margin-top: -100px;
+  clear:both;
+}
